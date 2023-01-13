@@ -1,0 +1,15 @@
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.exe
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.deps.json
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.runtimeconfig.json
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.runtimeconfig.dev.json
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.dll
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Anagrams.pdb
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.csprojAssemblyReference.cache
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.AssemblyInfoInputs.cache
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.AssemblyInfo.cs
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.csproj.CoreCompileInputs.cache
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.dll
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.pdb
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\obj\Debug\netcoreapp3.1\Anagrams.genruntimeconfig.cache
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Dictionary.txt
+C:\Users\MalindisaS\OneDrive - University of the Free State\Documents\Projects\bsgAnagrams\Anagrams\bin\Debug\netcoreapp3.1\Dictionary1.txt
