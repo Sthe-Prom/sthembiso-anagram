@@ -43,17 +43,6 @@ namespace Anagrams
                 Console.WriteLine(ex.Message);
             }
 
-            // List<string> words = new List<string>(){"AA", "AH", "BA", "CAB", "AAH", "BAC",
-            //     "silent", "listen", "stenli"};
-
-            // var v = new AnagramService().Compute(words);
-
-            // foreach (var item in v)
-            // {
-            //     Console.WriteLine(item.WordLength + " " + item.Count);
-               
-            // }
-
         }
     }
 }

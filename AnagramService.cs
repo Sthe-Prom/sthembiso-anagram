@@ -12,8 +12,7 @@ namespace Anagrams
             //Dictionary Key(Word Length) and Value(Word List), allows for faster checking of anagrams words 
             //with equal lengths.
             Dictionary<int, List<string>> dicWordCount = new Dictionary<int, List<string>>();
-            List<string> tempWords = new List<string>();
-
+           
             foreach (string word in words) 
             {
                 int wordLength = word.Length;
@@ -23,10 +22,7 @@ namespace Anagrams
                     dicWordCount[wordLength].Add(word);                  
                 }
                 else
-                {
-                    //Add to dictionary if key is new
-                    //List<string> newList = new List<string>();
-                    //newList.Add(word);                                                                   
+                {                                                                                 
                     dicWordCount[wordLength] = new List<string>{word};                   
                 }
             }
@@ -36,11 +32,6 @@ namespace Anagrams
 
             foreach (var item in dicWordCount)
             {
-                // var an = new AnagramCounter(item.Key, item.Value.Count);
-                // an.WordLength = item.Key;
-                // an.Count = item.Value.Count;
-                // anagramCounter.Add(an);
-
                 anagramCounter.Add(countAnagrams(item.Key, item.Value)); //Add anagramCounter object to anagramCounter list for all dictionary items
             }
 
@@ -48,16 +39,15 @@ namespace Anagrams
           
         }     
       
+        //uses processed word to find anagram using linq
         public static bool IsAnagram(string subject_, string anagramCandidate_)
         {
             var subject = ProcessWord(subject_);
             var anagramCandidate = ProcessWord(anagramCandidate_);
             return subject.Count == subject.Where(x => anagramCandidate.Contains(x)).ToList().Count;
-
-            // var isAnagram = subject.OrderBy(c => c).SequenceEqual(anagramCandidate.OrderBy(c => c));
-            // return isAnagram;
         }
 
+        //splits the word and passes it as list of key value pair of letter and occurance count
         public static List<(Char Key, int Count)> ProcessWord(string subject_)
         {           
             return subject_.Replace(" ", "").ToLower().GroupBy(c => c)
