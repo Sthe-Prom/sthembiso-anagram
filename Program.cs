@@ -18,7 +18,7 @@ namespace Anagrams
             try
             {
                 var localPath = Path.GetDirectoryName(Assembly.GetAssembly(typeof(AnagramService)).Location);
-                var dictionaryPath = Path.Combine(localPath, "Dictionary.txt");
+                var dictionaryPath = Path.Combine(localPath, "Dictionary1.txt");
                 var words = File.ReadAllLines(dictionaryPath);
                 var timer = new Stopwatch();
 
@@ -35,7 +35,6 @@ namespace Anagrams
                     Console.WriteLine(
                         $"Words with the character length of {anagramCounter.WordLength} had {anagramCounter.Count} anagrams");
                 }
-
                 
             }
             catch (Exception ex)
@@ -54,8 +53,6 @@ namespace Anagrams
             //     Console.WriteLine(item.WordLength + " " + item.Count);
                
             // }
-
-
 
         }
     }
